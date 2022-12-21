@@ -74,7 +74,7 @@ const SavedBooks = () => {
                   <p className="small">Authors: {book.authors}</p>
                   <p className="small">
                     Link:{" "}
-                    <a href={book.link} target="_blank" rel="noopener">
+                    <a href={book.link} target="_blank" rel="noopener noreferrer">
                       {book.title}
                     </a>
                   </p>
