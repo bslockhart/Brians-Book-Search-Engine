@@ -137,7 +137,7 @@ const SearchBooks = () => {
                   <p className="small">Authors: {book.authors}</p>
                   <p className="small">
                     Link:{" "}
-                    <a href={book.link} target="_blank" rel="noreferrer">
+                    <a href={book.link} target="_blank" rel="noopener">
                       {book.title}
                     </a>
                   </p>

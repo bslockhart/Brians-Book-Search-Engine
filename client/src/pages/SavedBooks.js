@@ -54,9 +54,8 @@ const SavedBooks = () => {
       <Container>
         <h2>
           {userData.savedBooks.length
-            ? `Viewing ${userData.savedBooks.length} saved ${
-                userData.savedBooks.length === 1 ? "book" : "books"
-              }:`
+            ? `Viewing ${userData.savedBooks.length} saved ${userData.savedBooks.length === 1 ? "book" : "books"
+            }:`
             : "You have no saved books!"}
         </h2>
         <CardColumns>
@@ -75,7 +74,7 @@ const SavedBooks = () => {
                   <p className="small">Authors: {book.authors}</p>
                   <p className="small">
                     Link:{" "}
-                    <a href={book.link} target="_blank" rel="noreferrer">
+                    <a href={book.link} target="_blank" rel="noopener">
                       {book.title}
                     </a>
                   </p>
